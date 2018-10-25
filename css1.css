@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(image2.jpeg);
+    height: 200px;
+    width: 100%
+   
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;  
+    background-attachment: fixed; 
+}
+ul li a{
+    text-decoration:none;
+     color: white;
+      display: block;
+      background-attachment: fixed;
+}
+ul li{
+    float:left; 
+    width: 120px;
+    height: 40px;
+    background-color:rgb(27, 26, 26);
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 40px;
+    text-align: center;
+    opacity: .6;
+    background-attachment: fixed;
+    
+
+}
+ul li a:hover{
+    background-color: gold;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+
+
+
+h1{
+    text-align: center;
+    padding: 380px 10px 0px 500px;
+    opacity: .5;
+    color: rgb(87, 63, 2);
+   
+}
+
+
+
+.container{
+    height: 1200px;
+    width: 100%;
+    
+   
+    
+}
+
+.imageabout{
+    
+    background-image: url(about.jpg);
+    background-attachment: fixed;
+   
+}
+.anotherimage{
+
+    height: 700px;
+    width: 100%;
+    background-image: url(image3.jpg);
+    background-attachment: fixed;
+}
+.textwrite{
+    width: 400px;
+    border: 25px solid;
+    padding: 0px 0px 20px 20px;
+    margin: 5px;
+}
+
+.textwrite p{
+    text-align: justify;
+    padding: 10px 10px 10px 10px;
+}
+
+.anotherimage2{
+    height: 1000px;
+    width: 100%;
+    background-image: url(about.jpg);
+    background-attachment: fixed;
+}
+.anotherimage2 h1{
+    font-size: 28px;
+    color: blanchedalmond;
+}
+
+.anotherimage2 p{
+    text-align: justify;
+    padding: 5px 10px 10px 0px;
+    color: bisque;
+    margin: 40px;
+     border-width: 1px;
+}
